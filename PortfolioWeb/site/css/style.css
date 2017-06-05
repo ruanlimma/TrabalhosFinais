@@ -1,0 +1,212 @@
+*{
+	box-sizing: border-box;
+}
+
+section{
+	width:900px;
+	height:700px;
+	margin: 0 auto;
+	
+}
+
+
+header{
+	width:900px;
+	height:100px;
+	background-color:#663366;
+	background: url(../image/topo.png);
+	padding-top:75px;	
+	padding-left:20px;
+	font-size:13px;
+	font-weight:bold;
+	color: black;
+}
+
+
+/*Menu1 - Horizontal*/
+.menu1{
+	width:900px;
+	height:50px;
+	background-color:#663366;
+	clear: both;
+}
+
+.menu1 ul{
+	margin-left:-40px;
+	margin-top:-16px;
+}
+
+.menu1 ul li{
+	float: left;
+	min-width: 200px;
+	list-style-type: none;
+
+}
+
+#botao{
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	margin-right:12.5px;
+	margin-left:12.5px;
+}
+
+.btn1{
+	width: 200px;
+	height: 50px;
+	background: url(../image/btn1.png);
+	background-repeat: no-repeat;
+	background-size:200px 50px;
+	margin-right:12.5px;
+	margin-left:12.5px;
+}
+
+.btn1:hover{
+	width: 200px;
+	height: 50px;
+	background: url(../image/btn1-hover.png);
+	background-repeat: no-repeat;
+	background-size:200px 50px;
+	margin-right:12.5px;
+	margin-left:12.5px;
+}
+
+.btn2{
+	width: 200px;
+	height: 50px;
+	background: url(../image/btn2.png);
+	background-repeat: no-repeat;
+	background-size:200px 50px;
+	margin-right:12.5px;
+	margin-left:12.5px;
+}
+
+.btn2:hover{
+	width: 200px;
+	height: 50px;
+	background: url(../image/btn2-hover.png);
+	background-repeat: no-repeat;
+	background-size:200px 50px;
+	margin-right:12.5px;
+	margin-left:12.5px;
+}
+
+.btn3{
+	width: 200px;
+	height: 50px;
+	background: url(../image/btn3.png);
+	background-repeat: no-repeat;
+	background-size:200px 50px;
+	margin-right:12.5px;
+	margin-left:12.5px;
+}
+
+.btn3:hover{
+	width: 200px;
+	height: 50px;
+	background: url(../image/btn3-hover.png);
+	background-repeat: no-repeat;
+	background-size:200px 50px;
+	margin-right:12.5px;
+	margin-left:12.5px;
+}
+
+.btn4{
+	width: 200px;
+	height: 50px;
+	background: url(../image/btn4.png);
+	background-repeat: no-repeat;
+	background-size:200px 50px;
+	margin-right:12.5px;
+	margin-left:12.5px;
+}
+
+.btn4:hover{
+	width: 200px;
+	height: 50px;
+	background: url(../image/btn4-hover.png);
+	background-repeat: no-repeat;
+	background-size:200px 50px;
+	margin-right:12.5px;
+	margin-left:12.5px;
+}
+
+
+/*Menu2 - Vertical*/
+.menu2{
+	width:150px;
+	height:550px;
+	background-color:#663366;
+	float: left;
+	padding-top:12px;
+	background-image: url(../image/menu2.png);
+	background-repeat: no-repeat;
+	font-size:13px;
+	font-weight:bold;
+	color: black;
+}
+
+.menu2 ul li{
+	list-style-type: none;
+}
+
+.menu2 ul{
+	margin-left:-32px;
+}
+.menu2 a:link,a:hover,a:visited{
+	color: #2C307F;
+	text-decoration: none;
+}
+
+.liMenu2:hover{
+	background-color: purple;
+	margin-left:-3px;
+}
+
+
+/*Conteúdo principal*/
+article{
+	width:750px;
+	height:550px;
+	float:left;
+	padding-top:23px;
+	background-image: url(../image/article.png);
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.imagem{
+	width:150px;
+	text-align: left;
+	float:right;	
+}
+ 
+.artigo{
+	width:570px;
+	height:215px;
+	text-align: left;
+	float:right;
+}
+
+.artigo2{
+	width:710px;
+	height:202px;
+	text-align: left;
+	clear: both;
+	
+}
+
+
+/*Rodapé*/
+footer{
+	width:900px;
+	height:50px;
+	background-image: url(../image/rodape.png);
+	clear: both;
+	text-align:right;
+	padding-top:30px;
+	padding-right:20px;
+	
+}
+	
+	

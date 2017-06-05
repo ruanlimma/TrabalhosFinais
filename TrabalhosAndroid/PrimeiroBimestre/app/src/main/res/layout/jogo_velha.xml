@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#012507"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#d2d190"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:textSize="32sp"
+            android:text="Jogo da Velha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#6ce76a"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_jogador2"
+            android:textAlignment="center"
+            android:fontFamily="casual"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="Jogador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageButton
+
+                android:onClick="clickListener"
+                android:id="@+id/b0"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+
+                android:onClick="clickListener"
+                android:id="@+id/b1"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+
+                android:onClick="clickListener"
+                android:id="@+id/b2"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageButton
+
+                android:onClick="clickListener"
+                android:id="@+id/b3"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+
+                android:onClick="clickListener"
+                android:id="@+id/b4"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+
+                android:onClick="clickListener"
+                android:id="@+id/b5"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b6"
+
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b7"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:onClick="clickListener"
+                android:id="@+id/b8"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:textColor="#d2d190"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/tv_jogada"
+        android:text="Jogador: Humano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="clickListenerReiniciar"
+        android:text="Reiniciar"
+        android:textStyle="bold"
+        android:background="#6ce76a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="#6ce76a"
+            android:id="@+id/btn_voltar2"
+            android:text="Voltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

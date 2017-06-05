@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Super Pokemon</string>
+    <string name="vencedor">%s venceu!!</string>
+    <string name="jogador">Jogador: %s</string>
+</resources>

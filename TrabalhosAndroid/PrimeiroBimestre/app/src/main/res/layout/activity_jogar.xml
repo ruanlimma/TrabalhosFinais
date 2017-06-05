@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#012507"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/jogar"
+            android:textSize="26sp"
+            android:text="Aproveite!"
+            android:textColor="#d2d190"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="105dp"
+            android:src="@drawable/cartoon"
+            android:id="@+id/splash"
+            android:layout_below="@+id/jogar"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="#8ab68d"
+            android:id="@+id/btn_joken"
+            android:text="Joken"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:background="#8ab68d"
+            android:id="@+id/btn_velha"
+            android:text="Jogo da Velha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_above="@+id/btn_joken"/>
+
+        <Button
+            android:background="#8ab68d"
+            android:id="@+id/btn_imc"
+            android:text="Calcule o IMC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:layout_above="@+id/btn_velha"/>
+
+    <LinearLayout
+        android:background="#6ce76a"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Nome do Jogador:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:fontFamily="casual"
+            android:id="@+id/ed_nome"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:hint="Digite o Nome do Jogador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:textSize="24dp"
+            android:layout_alignTop="@+id/tv_nome"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

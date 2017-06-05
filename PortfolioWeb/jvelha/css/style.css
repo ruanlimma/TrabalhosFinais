@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+}
+
+section{
+	 margin:0 auto;	
+	 width: 910px;
+	height: 900px;
+	background-color: #d5e3ad;
+	border: solid 5px #000000;
+	
+}
+
+#botao{
+	width: 241px;
+	height: 202px;
+	margin: 0 auto;
+	margin-right:12.5px;
+	margin-left:12.5px;
+	background-image: url(../img/xo.jpg);
+
+}

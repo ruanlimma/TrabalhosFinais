@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Conhecimentos em Android</string>
+    <string name="mensagem">Divirta-se!</string>
+    <string name="toast">Atirando!</string>
+    <string name="title_activity_jogo_velha">JogoVelha</string>
+    <string name="vencedor">%s venceu!!</string>
+    <string name="velha">Deu Velha!</string>
+    <string name="jogador">Jogador: %s</string>
+    <string name="Vazio"></string>
+</resources>

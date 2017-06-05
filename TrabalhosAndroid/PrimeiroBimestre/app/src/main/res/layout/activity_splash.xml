@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#012507"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#d2d190"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingTop="50dp"
+            android:textSize="30dp"
+            android:text="Trabalho do Primeiro Bimestre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"/>
+
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_margin="20dp"
+      android:gravity="center"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash"
+        android:id="@+id/splash" />
+
+  </LinearLayout>
+
+
+
+</LinearLayout>

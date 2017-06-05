@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Jogo da Memória</title>
+
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script> 
+		<script src="js/game.js"></script>
+
+		<script> 
+			$(document).ready(function(){
+			    $("#flip").click(function(){
+			        $("#panel").slideToggle("slow");
+			    });
+			});
+		</script>
+
+		<style> 
+			#panel, #flip {
+			    text-align: center;
+			    background-color: #e5eecc;
+			    border: solid 1px #000000;
+			    align-content: center;
+			    width: 900px;
+				height: 50px;
+			}
+
+			#panel {
+				align: center;
+			    width: 900px;
+				height: 700px;
+			    
+			}
+		</style>
+
+</head>
+
+	<body align="Center" bgcolor="afba91">
+	<section id="geral">
+			<h1>
+			    Jogo da velha
+			</h1>
+
+			<div id="flip" align="center"><h2>Click para Jogar</h2></div>
+			<div id="panel" align="center">
+
+				<table align="center">
+
+					<input type="hidden" value="0" name="valida" />
+					<td><tr><h3>Agora é a vez do Jogador: <label id="player">X</label> </h3></tr></td>
+
+					<tr>
+					    <td><button id="botao" name="x1"></button></td>
+					    <td><button id="botao" name="x2"></button></td>
+					    <td><button id="botao" name="x3"></button></td>
+					</tr>
+					<tr>
+					    <td><button id="botao" name="y1"></button></td>
+					    <td><button id="botao" name="y2"></button></td>
+					    <td><button id="botao" name="y3"></button></td>
+					</tr>
+					<tr>
+					    <td><button id="botao" name="z1"></button></td>
+					    <td><button id="botao" name="z2"></button></td>
+					    <td><button id="botao" name="z3"></button></td>
+					</tr>
+				</table>
+
+			</div>
+
+		</section>
+</body>
+</html>
